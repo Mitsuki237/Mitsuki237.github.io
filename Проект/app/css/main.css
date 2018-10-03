@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+font-family: 'Ruslan Display', cursive;
+font-family: 'Lobster', cursive;
+	background-color: #efefef;
+}
+.main {
+	background-color: #fff;
+	padding: 50px; /*внутренний отступ*/
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3); /*смещение по оси Х, смещение по оси У, размытие, размер тени и цвет*/
+}
+.content_img {
+	display: block; /*блочное позиционирование*/
+	height: auto; /*высота ставится автоматически в зависимости от ширины*/
+	max-width: 100%; /*максимальная ширина относительно родительского контейнера*/
+	margin: 30px auto; /*горизонтальное центрирование*/
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+.content_p {
+	font-size: 18px;
+	line-height: 1.5; /*высота строки*/
+	letter-spacing: 0.3em; /*пространство между буквами в слове*/
+	text-align: justify;
+}
+.main_heading {
+	font-size: 48px;
+	text-align: center;
+}
